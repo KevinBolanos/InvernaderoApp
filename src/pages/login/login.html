@@ -15,6 +15,20 @@
 
 <ion-content padding>
 
-  <img src="../assets/imgs/invernadero.png">
+  <img style="width: 120; height: 120px;" src="../assets/imgs/invernadero.png">
+
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>Usuario</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label fixed>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  
+  <button (click)="clickHome()" ion-button block>Iniciar Sesión</button>
 
 </ion-content>
